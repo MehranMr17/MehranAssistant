@@ -1,5 +1,6 @@
 *.iml
 .gradle
+/app/src/main/java/ir/meros/assistant/Consts.kt
 /local.properties
 /.idea/caches
 /.idea/libraries

