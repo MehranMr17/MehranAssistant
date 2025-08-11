@@ -10,10 +10,11 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven("https://en-mirror.ir")
+        maven("https://jitpack.io" )
+//        maven("https://en-mirror.ir")
     }
 }
 
-rootProject.name = "Assistant"
+rootProject.name = "RojGallery V2"
 include(":app")
  
